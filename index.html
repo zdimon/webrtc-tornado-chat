@@ -21,7 +21,7 @@
         display: block;
         margin: 0 auto;
         width: 500px;
-        height: 500px;
+        height: 400px;
       }
 
       #localVideo {
@@ -49,7 +49,17 @@
        <button id="stopButton"> Stop </button>
     </div>
     
+    <div id="loginForm">
+      username <input type="text" id="username" /> <br />
+      my ID <input type="text" id="socketId" /> <br />
+      remote ID <input type="text" id="abonentId" />
+      <button id="loginButton"> Login </button>
+    </div>
    
-    <script src="app.js"></script>
+    <div id="clientsBox">
+      <ul id="clientList"></ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/static/app.js"></script>
   </body>
 </html>
